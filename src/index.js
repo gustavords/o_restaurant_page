@@ -2,7 +2,7 @@
 import "./styles.css";
 import { buildHomePage } from "./home.js";
 import { buildMenuPage } from "./menu.js";
-// import { buildAboutPage } from "./about.js";
+import { buildAboutPage } from "./about.js";
 
 //tab switching logic
 const tabSwitching = () =>
@@ -21,7 +21,7 @@ const tabSwitching = () =>
                     buildMenuPage();
                     break;
                 case `about`:
-                    buildHomePage();
+                    buildAboutPage();
                     break;
             }
         } );
