@@ -33,9 +33,7 @@ const tabSwitching = () =>
                 case `about`:
                     buildHomePage();
                     break;
-
             }
-
         } );
     } );
 }
